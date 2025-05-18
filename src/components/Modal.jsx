@@ -1,6 +1,3 @@
-//import { useContext } from "react";
-//import { AppContext } from "../context";
-
 import { useGlobalContext } from "../context";
 
 const Modal = () => {

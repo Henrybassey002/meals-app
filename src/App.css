@@ -168,7 +168,7 @@ ul {
 /* End Of Global Styles */
 
 
-/* Search */
+/* Search Styling*/
 
 search-container{
     height:5rem;
@@ -198,7 +198,7 @@ search-container{
   .search-container .btn{
     font-size:0.75rem;
   }
-  /* Favorites */
+  /* Favorites styling */
   .favorites{
     background:var(--black);
     color:var(--white);
@@ -235,7 +235,7 @@ search-container{
   .remove-btn:hover{
     color:var(--red-dark)
   }
-  /* Meals */
+  /* Meals  styling*/
   .section,.section-center{
     padding:3rem 0;
     width:var(--view-width);
@@ -295,7 +295,7 @@ search-container{
     color:var(--red-dark);
     transform:translateY(-2px)
   }
-  /* Modal */
+  /* Modal Styling*/
   
   .modal-overlay{
     position:fixed;

@@ -1,6 +1,4 @@
 import { useGlobalContext } from "../context";
-//import { useContext } from "react";
-//import { AppContext } from "../context";
 import "../App.css";
 import { BsHandThumbsUp } from "react-icons/bs";
 

@@ -1,8 +1,4 @@
 import { useGlobalContext } from "../context";
-import Henroski from "../pages/Henroski";
-//import { useContext } from "react";
-//import { AppContext } from "../context";
-
 const Favorites = () => {
   const { favorites, selectMeal, removeFromFavorites } = useGlobalContext();
   return (
@@ -14,7 +10,11 @@ const Favorites = () => {
             const { idMeal, strMealThumb: image } = item;
             return (
               <div key={idMeal} className="favorite-item">
-                <img src={image} className="favorites-img img" />
+                <img
+                  src={image}
+                  className="favorites-img img"
+                  onClick={() => selectMeal(idMeal, true)}
+                />
                 <button
                   className="remove-btn"
                   onClick={() => removeFromFavorites(idMeal)}
